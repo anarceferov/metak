@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_METHOD} POST
+RewriteRule ^posts$ ApiPosts.php [NC,L]
